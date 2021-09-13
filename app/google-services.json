@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "887324208521",
+    "project_id": "estertrinityapp",
+    "storage_bucket": "estertrinityapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887324208521:android:9f6c307a4baad573b8c558",
+        "android_client_info": {
+          "package_name": "com.ester.esterTrinityApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887324208521-pf6srdj73nq4sjd43emnugik8tic4jbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5lnUEK6FG7ciQgMiWPUE-yZoFYahJ9ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887324208521-pf6srdj73nq4sjd43emnugik8tic4jbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

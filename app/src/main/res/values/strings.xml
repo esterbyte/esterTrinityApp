@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TrinityApp</string>
+    <string name="registrar">Registrar</string>
+    <string name="confirm_password_image">Confirm password image</string>
+    <string name="password_for_register">Password for register</string>
+    <string name="email_for_register">Email for register</string>
+    <string name="logo">Logo</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="senha">Senha</string>
+    <string name="trinity">Trinity</string>
+    <string name="e_mail">E-mail</string>
+    <string name="login_email_icon">Login email icon</string>
+    <string name="login_password_icon">Login password icon</string>
+    <string name="login">Login</string>
+    <string name="manter_se_conectado">Manter-se conectado</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="sair">Sair</string>
+    <string name="logado_com_o_usu_rio">Logado com o usuário</string>
+    <string name="photo">Photo</string>
+    <string name="rover">Nome da Sonda :</string>
+    <string name="c_mera">Nome da câmera :</string>
+    <string name="data">Data da imagem:</string>
+    <string name="regisrar">Registrar</string>
+</resources>
