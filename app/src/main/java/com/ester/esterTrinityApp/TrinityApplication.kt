@@ -1,9 +1,9 @@
 package com.ester.esterTrinityApp
 
 import android.app.Application
-import com.ester.esterTrinityApp.di.modules.AppModule
-import com.ester.esterTrinityApp.di.modules.NetworkModule
-import com.ester.esterTrinityApp.di.modules.dbModule
+import com.ester.esterTrinityApp.di.dependencyInjection.AppModule
+import com.ester.esterTrinityApp.di.dependencyInjection.NetworkModule
+import com.ester.esterTrinityApp.di.dependencyInjection.dbModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

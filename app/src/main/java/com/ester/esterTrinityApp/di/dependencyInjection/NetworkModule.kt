@@ -1,4 +1,4 @@
-package com.ester.esterTrinityApp.di.modules
+package com.ester.esterTrinityApp.di.dependencyInjection
 
 import com.ester.esterTrinityApp.data.source.Dao
 import com.ester.esterTrinityApp.data.source.ApiService

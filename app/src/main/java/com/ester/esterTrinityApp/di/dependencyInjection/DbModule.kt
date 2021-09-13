@@ -1,4 +1,4 @@
-package com.ester.esterTrinityApp.di.modules
+package com.ester.esterTrinityApp.di.dependencyInjection
 
 import androidx.room.Room
 import com.ester.esterTrinityApp.data.source.Database

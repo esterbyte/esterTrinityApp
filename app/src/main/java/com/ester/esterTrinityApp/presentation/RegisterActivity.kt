@@ -48,34 +48,34 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun validateFields(password: String): Boolean {
-        if (editTextCadastroEmail.text!!.isEmpty()) {
-            editTextCadastroEmail.error = "Favor inserir e-mail de cadastro"
-            editTextCadastroEmail.requestFocus()
+        if (campoCadastroEmail.text!!.isEmpty()) {
+            campoCadastroEmail.error = "Favor inserir e-mail de cadastro"
+            campoCadastroEmail.requestFocus()
             return false
         }
-        if (editTextCadastroSenha.text!!.isEmpty()) {
-            editTextCadastroSenha.error = "Favor inserir senha de cadastro"
-            editTextCadastroSenha.requestFocus()
+        if (campoCadastroSenha.text!!.isEmpty()) {
+            campoCadastroSenha.error = "Favor inserir senha de cadastro"
+            campoCadastroSenha.requestFocus()
             return false
         }
 
         if (!validatePasswordFormat(password)) {
-            editTextCadastroSenha.error =
+            campoCadastroSenha.error =
                 "A senha deve conter de 8 a 16 digitos e conter pelo menos uma letra\n" +
                         "maiscula, uma minuscula, um número e um caractér especial."
-            editTextCadastroSenha.requestFocus()
+            campoCadastroSenha.requestFocus()
             return false
         }
-        if (editTextCadastroConfirmaSenha.text!!.isEmpty()) {
-            editTextCadastroConfirmaSenha.error =
-                "Favor inserir confirmação de senha de cadastro"
-            editTextCadastroConfirmaSenha.requestFocus()
+        if (campoTextoConfirmarSenha.text!!.isEmpty()) {
+            campoTextoConfirmarSenha.error =
+                "Insira confirmação de senha de cadastro"
+            campoTextoConfirmarSenha.requestFocus()
             return false
         }
-        if (editTextCadastroSenha.text.toString() != editTextCadastroConfirmaSenha.text.toString()) {
-            editTextCadastroConfirmaSenha.error =
-                "A senha e a confirmação de senha precisam ser iguais"
-            editTextCadastroConfirmaSenha.requestFocus()
+        if (campoCadastroSenha.text.toString() != campoTextoConfirmarSenha.text.toString()) {
+            campoTextoConfirmarSenha.error =
+                "A senha e a confirmação não estão iguais"
+            campoTextoConfirmarSenha.requestFocus()
             return false
         }
         return true

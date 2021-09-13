@@ -14,8 +14,8 @@
     <string name="login">Login</string>
     <string name="manter_se_conectado">Manter-se conectado</string>
     <string name="cadastro">Cadastro</string>
-    <string name="sair">Sair</string>
-    <string name="logado_com_o_usu_rio">Logado com o usuário</string>
+    <string name="sair">Logout</string>
+    <string name="logged_as">Logado como</string>
     <string name="photo">Photo</string>
     <string name="rover">Nome da Sonda :</string>
     <string name="c_mera">Nome da câmera :</string>
